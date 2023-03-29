@@ -2,7 +2,7 @@
 
 ## Overview
 
-  Objective of the project is to utilize machine learning to solve credit card loan risk assessment. 
+  Objective of the project is to utilize supervised machine learning models to predict credit card loan's risk level (Low/High). 
   As part of the project, we need to evaluate all the factors from the data set that can help predict a loan with low/high risk category. 
   
   This reqiures utilizing machine learning, statistical analysis and evaluation of multiple models. 
@@ -17,4 +17,12 @@
   
 ## Results
 
+  Below are the balanced accuracy and imbalanced classification reports for all 6 models. These metrics are key to understand how the models performed and evaluate the best possible models to utilize to predict risk level. 
+
 ## Analysis
+
+
+Six machine learning models were used to predict bad loans for Lending Club. The Balanced Random Forest Classifier and the Easy Ensemble AdaBoost Classifier models achieved the highest scores for predicting bad loans as evidenced by their recall scores and balanced accuracy scores. Since the Easy Ensemble AdaBoost Classifier model did not generate an incremental increase in predictive value over the Balanced Random Forest Classifier model, I recommend using the Balanced Random Forest Classifier model.
+
+
+Typically in your models you want a good balance of recall and precision which is why I recommend the ensemble classifiers over the first four models. It appears that the Easy Ensemble had the best balance of all the models because of it's high accuracy score and good balance of precision and recall scores.
