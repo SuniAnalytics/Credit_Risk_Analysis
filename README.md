@@ -14,6 +14,7 @@
   - Undersampling model (Cluster Centroids)
   - Combination sampling (SMOTEEN)
   - Ensemble Models to minimize bias (Balanced Randon Forest Classifier, Easy ensemble AdaBoost classifier)
+  - Analyzed accuracy and classification reports of each of the models and compared to identify best model among the 6 models.
   
 ## Results
 
@@ -21,7 +22,11 @@
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/AllPrecisionHighRiskLowRisk.png)
   
-  ### 1. Oversampling - Native Random 
+### 1. Oversampling - Native Random 
+  
+     - Accuracy is at 67.7%.
+     - High Risk: Precision has a very low positivity at 1% and the recall is 76%
+     - Low Risk: Precision is high at 100% and the recall is 59%
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/NaiveRandomOversampling.png)
   
@@ -29,6 +34,10 @@
   
 
   ### 2. Oversampling - SMOTE
+  
+     Accuracy is at 67.7%.
+     High Risk: Precision has a very low positivity at 1% and the recall is 76%
+     Low Risk: Precision is high at 100% and the recall is 59%
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/SMOTEOversampling.png)
   
