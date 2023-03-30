@@ -86,7 +86,7 @@
   
   
   
-## Analysis
+## Summary
 
    Six machine learning models were used to predict bad loans for Lending Club. Each of these models used different techniques to predict high/low risk loans.
    
@@ -96,6 +96,6 @@
    
    3. High Risk Loans: All Models achieved a very low precision %s at <10%. Similat ro low risk loans, recall % is higher with ensemble models with Easy ensemble with 92%.
    
-   ### Preferred Model:
+   ### Recommended Model:
          Easy ensemble is the preferred model to predict bad loans with its higher accuracy, precision and recall %s compared to all other models. 
          As the ability to predict high risk loans is important for the lending business, we need to explore futher to identify models that can improve precision for high risk loans as none of the current 6 options provide a good precision %. 
