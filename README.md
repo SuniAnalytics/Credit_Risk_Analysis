@@ -65,7 +65,7 @@
   
   ### 5. Ensemble - Balanced Randon Forest Classifier
  
-     - Accuracy is at 78.8%, higher than all models excep Adaboost.
+     - Accuracy is at 78.8%, higher than all models except easy ensemble.
      - High Risk: Precision has a very low positivity at 3% (even though slightly higher than other models) and the recall is 70%. Similar to oversampling & combination models.
      - Low Risk: Precision is high at 100% and the recall is 87%, higher than all models excep Adaboost
      
@@ -88,8 +88,7 @@
   
 ## Analysis
 
-
-Six machine learning models were used to predict bad loans for Lending Club. The Balanced Random Forest Classifier and the Easy Ensemble AdaBoost Classifier models achieved the highest scores for predicting bad loans as evidenced by their recall scores and balanced accuracy scores. Since the Easy Ensemble AdaBoost Classifier model did not generate an incremental increase in predictive value over the Balanced Random Forest Classifier model, I recommend using the Balanced Random Forest Classifier model.
+   Six machine learning models were used to predict bad loans for Lending Club. The Balanced Random Forest Classifier and the Easy Ensemble AdaBoost Classifier models achieved the highest scores for predicting bad loans as evidenced by their recall scores and balanced accuracy scores. Since the Easy Ensemble AdaBoost Classifier model did not generate an incremental increase in predictive value over the Balanced Random Forest Classifier model, I recommend using the Balanced Random Forest Classifier model.
 
 
 Typically in your models you want a good balance of recall and precision which is why I recommend the ensemble classifiers over the first four models. It appears that the Easy Ensemble had the best balance of all the models because of it's high accuracy score and good balance of precision and recall scores.
