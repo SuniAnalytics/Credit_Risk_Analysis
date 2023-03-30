@@ -92,17 +92,10 @@
    
    1. Accuracy: The two ensemble models achieved very high accuracy scores to predict risky loans based on thier balanced accuracy scores (78.8% and 93.1%). Easy ensemble achieved highest accuracy at 93.1% 
    
-   2. Low Risk Loans: 
+   2. Low Risk Loans: All Models achieved a high precision of 100%, recall % is higher with ensemble models with Easy ensemble with 94%.
    
-   3. High Risk Loans:
+   3. High Risk Loans: All Models achieved a very low precision %s at <10%. Similat ro low risk loans, recall % is higher with ensemble models with Easy ensemble with 92%.
    
    ### Preferred Model:
-   
-   Require futher analysis
-   
-   The Balanced Random Forest Classifier and the Easy Ensemble AdaBoost Classifier models achieved the highest scores for predicting bad loans as evidenced by their recall scores and balanced accuracy scores. Since the Easy Ensemble AdaBoost Classifier model did not generate an incremental increase in predictive value over the Balanced Random Forest Classifier model, I recommend using the Balanced Random Forest Classifier model.
-
-
-Typically in your models you want a good balance of recall and precision which is why I recommend the ensemble classifiers over the first four models. It appears that the Easy Ensemble had the best balance of all the models because of it's high accuracy score and good balance of precision and recall scores.
-
-![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/AllPrecisionHighRiskLowRisk.png)
+         Easy ensemble is the preferred model to predict bad loans with its higher accuracy, precision and recall %s compared to all other models. 
+         As the ability to predict high risk loans is important for the lending business, we need to explore futher to identify models that can improve precision for high risk loans as none of the current 6 options provide a good precision %. 
