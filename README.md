@@ -49,7 +49,7 @@
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/balancedRandomForestClassifier.png)
   
-  ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/BRFC_ClassificationReportImbalanced.png)
+  ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/BRFC%202.png)
   
   ### 6. Ensemble - Easy ensemble AdaBoost classifier
   
