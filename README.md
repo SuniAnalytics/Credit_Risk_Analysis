@@ -88,7 +88,21 @@
   
 ## Analysis
 
-   Six machine learning models were used to predict bad loans for Lending Club. The Balanced Random Forest Classifier and the Easy Ensemble AdaBoost Classifier models achieved the highest scores for predicting bad loans as evidenced by their recall scores and balanced accuracy scores. Since the Easy Ensemble AdaBoost Classifier model did not generate an incremental increase in predictive value over the Balanced Random Forest Classifier model, I recommend using the Balanced Random Forest Classifier model.
+   Six machine learning models were used to predict bad loans for Lending Club. Each of these models used different techniques to predict high/low risk loans.
+   
+   1. Accuracy: The two ensemble models achieved very high accuracy scores to predict risky loans based on thier balanced accuracy scores (78.8% and 93.1%). Easy ensemble achieved highest accuracy at 93.1% 
+   
+   2. Low Risk Loans: 
+   
+   3. High Risk Loans:
+   
+   ### Preferred Model:
+   
+   Require futher analysis
+   
+   The Balanced Random Forest Classifier and the Easy Ensemble AdaBoost Classifier models achieved the highest scores for predicting bad loans as evidenced by their recall scores and balanced accuracy scores. Since the Easy Ensemble AdaBoost Classifier model did not generate an incremental increase in predictive value over the Balanced Random Forest Classifier model, I recommend using the Balanced Random Forest Classifier model.
 
 
 Typically in your models you want a good balance of recall and precision which is why I recommend the ensemble classifiers over the first four models. It appears that the Easy Ensemble had the best balance of all the models because of it's high accuracy score and good balance of precision and recall scores.
+
+![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/AllPrecisionHighRiskLowRisk.png)
