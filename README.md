@@ -39,6 +39,8 @@
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/ClusterCentroidsResampler.png)
   
+  ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/Combination%20Sampling.png)
+  
   ### 4. Combination (Over and Under) Sampling - SMOTEENN
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/SMOTEENN.png)
