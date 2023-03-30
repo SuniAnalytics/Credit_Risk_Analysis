@@ -18,7 +18,47 @@
 ## Results
 
   Below are the balanced accuracy and imbalanced classification reports for all 6 models. These metrics are key to understand how the models performed and evaluate the best possible models to utilize to predict risk level. 
+  
+  ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/AllPrecisionHighRiskLowRisk.png)
+  
+  ### Oversampling - Native Random 
+  
+  ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/NaiveRandomOversampling.png)
+  
+  ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/NROImbalancedClassificationReport.png)
+  
 
+  ### Oversampling - SMOTE
+  
+  ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/SMOTEOversampling.png)
+  
+  ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/SMOTEImbalancedClassification.png)
+  
+  ### Undersampling - Cluster Centroids
+  
+  
+  ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/ClusterCentroidsResampler.png)
+  
+  ### Combination (Over and Under) Sampling - SMOTEENN
+  
+  ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/SMOTEENN.png)
+  
+  ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/SMOTEENNImbalancedReport.png)
+  
+  ### Ensemble - Balanced Randon Forest Classifier
+  
+  ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/balancedRandomForestClassifier.png)
+  
+  ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/BRFC_ClassificationReportImbalanced.png)
+  
+  ### Ensemble - Easy ensemble AdaBoost classifier
+  
+  ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/EasyEnsembleAdaBoostClassifier.png)
+  
+  ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/EE_ClassificationReport.png)
+  
+  
+  
 ## Analysis
 
 
