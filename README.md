@@ -21,37 +21,37 @@
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/AllPrecisionHighRiskLowRisk.png)
   
-  ### Oversampling - Native Random 
+  ### 1. Oversampling - Native Random 
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/NaiveRandomOversampling.png)
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/NROImbalancedClassificationReport.png)
   
 
-  ### Oversampling - SMOTE
+  ### 2. Oversampling - SMOTE
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/SMOTEOversampling.png)
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/SMOTEImbalancedClassification.png)
   
-  ### Undersampling - Cluster Centroids
+  ### 3. Undersampling - Cluster Centroids
   
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/ClusterCentroidsResampler.png)
   
-  ### Combination (Over and Under) Sampling - SMOTEENN
+  ### 4. Combination (Over and Under) Sampling - SMOTEENN
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/SMOTEENN.png)
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/SMOTEENNImbalancedReport.png)
   
-  ### Ensemble - Balanced Randon Forest Classifier
+  ### 5. Ensemble - Balanced Randon Forest Classifier
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/balancedRandomForestClassifier.png)
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/BRFC_ClassificationReportImbalanced.png)
   
-  ### Ensemble - Easy ensemble AdaBoost classifier
+  ### 6. Ensemble - Easy ensemble AdaBoost classifier
   
   ![](https://github.com/SuniAnalytics/Credit_Risk_Analysis/blob/main/images/EasyEnsembleAdaBoostClassifier.png)
   
